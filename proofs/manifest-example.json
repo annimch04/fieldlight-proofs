@@ -1,0 +1,22 @@
+{
+  "articles": [
+    {
+      "canonical_sha256": "077e214eadce30bbea48326ccb405bfee31045c8379a8200f57e57feb169b492",
+      "nonce": 5694,
+      "proof_sha256": "000042a4292b15cf5120813dae082e273a660efb1d07be77648061b2f8d8e0d4",
+      "source_path": "../examples/article.md",
+      "title": "Example",
+      "url": "https://fieldlight.com/example",
+      "zeros": 4
+    }
+  ],
+  "created_at": "2026-07-07T17:41:29Z",
+  "difficulty": {
+    "algorithm": "sha256",
+    "target": "leading_hex_zeros",
+    "zeros": 4
+  },
+  "manifest_sha256": "dce4501007ee1769df4aaad5660e3d788eb37b5d3c364c07302cb763bec98df3",
+  "protocol": "fieldlight-proof-v1",
+  "site": "https://fieldlight.com"
+}

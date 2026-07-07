@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fieldlight-proofs"
+version = "0.1.0"
+description = "Proof-of-work manifests for anchoring published writing in Bitcoin."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Fieldlight" }]
+
+[project.scripts]
+fieldlight-proof = "fieldlight_proofs.cli:main"
+
