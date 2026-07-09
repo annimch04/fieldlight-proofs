@@ -1,0 +1,35 @@
+{
+  "slug": "terms-of-a-future-i-can-live-in",
+  "title": "Terms of a Future I Can Live In",
+  "author": "Anni McHenry",
+  "artifact_type": "writing",
+  "fieldlight_url": "https://fieldlight.com/writing/terms-of-a-future-i-can-live-in/",
+  "source": {
+    "path": "writing/terms-of-a-future-i-can-live-in.md",
+    "sha256": "TODO"
+  },
+  "derivatives": [
+    {
+      "type": "author_read_audio",
+      "path": "audio/terms-of-a-future-i-can-live-in/terms-of-a-future-i-can-live-in_author-read.mp3",
+      "format": "audio/mpeg",
+      "sha256": "TODO",
+      "recorded_at": "2026-07-09T00:00:00Z",
+      "public_url": "TODO"
+    },
+    {
+      "type": "featured_image",
+      "path": "images/terms-of-a-future-i-can-live-in/carmel-state-beach.jpeg",
+      "format": "image/jpeg",
+      "sha256": "TODO",
+      "public_url": "TODO"
+    }
+  ],
+  "proof": {
+    "protocol": "fieldlight-proof-v1",
+    "manifest_path": "proofs/manifest.json",
+    "manifest_sha256": "TODO",
+    "bitcoin_anchor": null
+  },
+  "notes": "Author-read recording and public reading surface for a migrated Fieldlight essay."
+}

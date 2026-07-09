@@ -8,6 +8,7 @@ This document defines the `fieldlight-proof-v1` manifest and proof format.
 - Attach a configurable proof-of-work to that article.
 - Batch many article proofs into one manifest.
 - Anchor the manifest with a compact Bitcoin `OP_RETURN` payload.
+- Support a public artifact trail that can later include images, author-read audio, transcripts, and reading-surface snapshots.
 
 ## Non-Goals
 
@@ -15,6 +16,21 @@ This document defines the `fieldlight-proof-v1` manifest and proof format.
 - Managing Bitcoin private keys.
 - Broadcasting transactions.
 - Proving authorship by itself. A proof establishes existence of specific bytes before an anchor time, not legal authorship.
+- Replacing Git history, publication records, local custody, or explicit attribution.
+
+## Public Artifact Process
+
+The reference tool currently mines proofs for file-based article/source artifacts. Fieldlight's broader public process may attach related derivative artifacts to the same work, including:
+
+- author-read audio;
+- featured images;
+- social/share cards;
+- transcripts;
+- published HTML snapshots.
+
+Those derivative artifacts should be hashed and recorded in companion process manifests or future protocol versions. The v1 proof remains intentionally narrow: canonical source bytes, proof-of-work, manifest hash, and optional Bitcoin anchor.
+
+For the human workflow around migration, recording, and reorientation, see [docs/public-artifact-process.md](docs/public-artifact-process.md).
 
 ## Canonical Article Bytes
 
@@ -109,4 +125,3 @@ The transaction ID, block height, and block hash can be added to the manifest la
   }
 }
 ```
-

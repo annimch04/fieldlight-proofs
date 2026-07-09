@@ -1,8 +1,8 @@
 # Fieldlight Proofs
 
-A small proof-of-work and Bitcoin anchoring ritual for published writing.
+A small proof-of-work and Bitcoin anchoring ritual for published Fieldlight artifacts.
 
-Fieldlight Proofs turns an article into a verifiable record:
+Fieldlight Proofs turns a public artifact into a verifiable record:
 
 ```text
 article -> canonical bytes -> article_sha256
@@ -12,6 +12,20 @@ manifest_sha256 -> Bitcoin OP_RETURN payload
 ```
 
 The tool does not hold keys, sign transactions, or broadcast Bitcoin payments. It produces deterministic proof records and the compact `OP_RETURN` text you can anchor with the wallet or node software you already trust.
+
+## Why This Exists
+
+Fieldlight has writing, reading surfaces, images, recordings, protocols, and repositories that should be able to carry a public record without turning creative work into paperwork hell.
+
+The practical rule:
+
+> Hash artifacts when they become public or canonical enough to cite.
+
+For the broader migration and recording process, start here:
+
+- [Public Artifact Process](docs/public-artifact-process.md)
+- [Reorientation Note](docs/reorientation-note.md)
+- [Artifact Entry Example](examples/artifact-entry-example.json)
 
 ## Install for local use
 
@@ -68,6 +82,23 @@ That compact string is what you anchor in an `OP_RETURN` output.
 
 The exact hashing, canonicalization, manifest format, and verification rules are described in [SPEC.md](SPEC.md).
 
+## Public Workflow
+
+The normal Fieldlight publishing chain is:
+
+```text
+source writing
+  -> fieldlight.com reading surface
+  -> author recording
+  -> public audio derivative
+  -> hashes
+  -> manifest entry
+  -> manifest hash
+  -> optional Bitcoin anchor
+```
+
+The Bitcoin anchor is batch-oriented. Hash each artifact locally, update the manifest, then periodically anchor the manifest hash.
+
 ## Difficulty
 
 Expected work grows by 16x for every additional leading hex zero:
@@ -79,4 +110,3 @@ Expected work grows by 16x for every additional leading hex zero:
 ```
 
 Use low values for tests and ordinary batches. Save high values for pieces where the burn itself is part of the work.
-
