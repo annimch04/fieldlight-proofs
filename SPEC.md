@@ -113,10 +113,14 @@ The v1 Bitcoin anchor payload is:
 fieldlight:v1:<manifest_sha256>
 ```
 
-The transaction ID, block height, and block hash can be added to the manifest later under:
+The manifest must remain byte-for-byte unchanged after its hash is selected for anchoring. Transaction data therefore belongs in a detached receipt that references `manifest_sha256`; it must not be inserted into the anchored manifest.
+
+Example detached receipt:
 
 ```json
 {
+  "protocol": "fieldlight-anchor-receipt-v1",
+  "manifest_sha256": "...",
   "bitcoin_anchor": {
     "op_return": "fieldlight:v1:...",
     "txid": "...",
@@ -125,3 +129,5 @@ The transaction ID, block height, and block hash can be added to the manifest la
   }
 }
 ```
+
+This detached-receipt rule corrects the initial v1 design note. Adding an anchor block to the manifest itself would change `manifest_sha256` and break continuity with the payload already placed on Bitcoin.

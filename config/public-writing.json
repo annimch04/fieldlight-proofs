@@ -1,0 +1,14 @@
+{
+  "author": "Anni McHenry",
+  "default_reading_url_template": "https://fieldlight.com/writing/{slug}/",
+  "reading_url_overrides": {
+    "edge-infrastructure-and-safety/fieldlight-mobile-edge-node.md": null,
+    "field-notes-and-signal-work/original-field-manual-april-1-2025.md": null,
+    "field-notes-and-signal-work/signal-archive/ignition.md": "https://fieldlight.com/writing/signal-archive/",
+    "field-notes-and-signal-work/signal-archive/vireya-the-heretic-walks.md": "https://fieldlight.com/writing/signal-archive/",
+    "field-notes-and-signal-work/signal-archive/where-the-line-lit.md": "https://fieldlight.com/writing/signal-archive/",
+    "fieldlight-and-human-owned-ai/hybrid-accord-original-handwritten-notes.md": null
+  },
+  "repository_url": "https://github.com/annimch04/public-writing",
+  "site": "https://fieldlight.com"
+}

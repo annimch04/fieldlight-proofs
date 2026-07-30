@@ -1,0 +1,220 @@
+{
+  "$id": "https://fieldlight.com/schemas/fieldlight-corpus-manifest-v1.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "artifacts": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "artifact_class": {
+            "enum": [
+              "authored_work",
+              "derivative",
+              "metadata",
+              "public_archive",
+              "repository_documentation",
+              "tooling"
+            ]
+          },
+          "canonical_text_sha256": {
+            "pattern": "^[0-9a-f]{64}$",
+            "type": "string"
+          },
+          "git_blob_oid": {
+            "pattern": "^(?:[0-9a-f]{40}|[0-9a-f]{64})$",
+            "type": "string"
+          },
+          "media_type": {
+            "type": "string"
+          },
+          "metadata": {
+            "additionalProperties": false,
+            "properties": {
+              "author": {
+                "type": "string"
+              },
+              "status": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "author",
+              "status",
+              "title"
+            ],
+            "type": "object"
+          },
+          "path": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "raw_sha256": {
+            "pattern": "^[0-9a-f]{64}$",
+            "type": "string"
+          },
+          "reading_url": {
+            "format": "uri",
+            "type": "string"
+          },
+          "size_bytes": {
+            "minimum": 0,
+            "type": "integer"
+          },
+          "source_url": {
+            "format": "uri",
+            "type": "string"
+          }
+        },
+        "required": [
+          "artifact_class",
+          "git_blob_oid",
+          "media_type",
+          "path",
+          "raw_sha256",
+          "size_bytes",
+          "source_url"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "generator": {
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "const": "fieldlight-proofs"
+        },
+        "version": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "name",
+        "version"
+      ],
+      "type": "object"
+    },
+    "identity": {
+      "additionalProperties": false,
+      "properties": {
+        "author": {
+          "type": "string"
+        },
+        "site": {
+          "format": "uri",
+          "type": "string"
+        }
+      },
+      "required": [
+        "author",
+        "site"
+      ],
+      "type": "object"
+    },
+    "protocol": {
+      "const": "fieldlight-corpus-manifest-v1"
+    },
+    "snapshot": {
+      "additionalProperties": false,
+      "properties": {
+        "inclusion": {
+          "const": "all_tracked_blob_files"
+        },
+        "previous_manifest_sha256": {
+          "oneOf": [
+            {
+              "pattern": "^[0-9a-f]{64}$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "inclusion",
+        "previous_manifest_sha256"
+      ],
+      "type": "object"
+    },
+    "source": {
+      "additionalProperties": false,
+      "properties": {
+        "commit": {
+          "pattern": "^(?:[0-9a-f]{40}|[0-9a-f]{64})$",
+          "type": "string"
+        },
+        "commit_time": {
+          "type": "string"
+        },
+        "repository": {
+          "format": "uri",
+          "type": "string"
+        },
+        "tree_oid": {
+          "pattern": "^(?:[0-9a-f]{40}|[0-9a-f]{64})$",
+          "type": "string"
+        }
+      },
+      "required": [
+        "commit",
+        "commit_time",
+        "repository",
+        "tree_oid"
+      ],
+      "type": "object"
+    },
+    "summary": {
+      "additionalProperties": false,
+      "properties": {
+        "artifact_classes": {
+          "additionalProperties": {
+            "minimum": 0,
+            "type": "integer"
+          },
+          "type": "object"
+        },
+        "authored_work_count": {
+          "minimum": 0,
+          "type": "integer"
+        },
+        "reading_surface_count": {
+          "minimum": 0,
+          "type": "integer"
+        },
+        "tracked_file_count": {
+          "minimum": 0,
+          "type": "integer"
+        },
+        "tracked_size_bytes": {
+          "minimum": 0,
+          "type": "integer"
+        }
+      },
+      "required": [
+        "artifact_classes",
+        "authored_work_count",
+        "reading_surface_count",
+        "tracked_file_count",
+        "tracked_size_bytes"
+      ],
+      "type": "object"
+    }
+  },
+  "required": [
+    "artifacts",
+    "generator",
+    "identity",
+    "protocol",
+    "snapshot",
+    "source",
+    "summary"
+  ],
+  "title": "Fieldlight Corpus Manifest v1",
+  "type": "object"
+}

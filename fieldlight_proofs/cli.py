@@ -5,6 +5,12 @@ import os
 import sys
 from pathlib import Path
 
+from .corpus import (
+    build_corpus_manifest,
+    load_corpus_config,
+    verify_corpus_manifest,
+    write_corpus_snapshot,
+)
 from .core import (
     DEFAULT_SITE,
     ArticleProof,
@@ -66,10 +72,40 @@ def command_opreturn(args: argparse.Namespace) -> int:
     return 0
 
 
+def command_snapshot(args: argparse.Namespace) -> int:
+    config = load_corpus_config(Path(args.config))
+    manifest = build_corpus_manifest(
+        repo=Path(args.repository),
+        ref=args.ref,
+        config=config,
+        previous_manifest_sha256=args.previous_manifest_sha256,
+    )
+    manifest_path, digest = write_corpus_snapshot(Path(args.output), manifest)
+    print(f"wrote {manifest_path}")
+    print(f"tracked files: {manifest['summary']['tracked_file_count']}")
+    print(f"authored works: {manifest['summary']['authored_work_count']}")
+    print(f"reading surfaces: {manifest['summary']['reading_surface_count']}")
+    print(f"manifest_sha256: {digest}")
+    return 0
+
+
+def command_verify_corpus(args: argparse.Namespace) -> int:
+    source_root = Path(args.source_root) if args.source_root else None
+    errors = verify_corpus_manifest(Path(args.manifest), source_root=source_root)
+    if errors:
+        for error in errors:
+            print(f"error: {error}", file=sys.stderr)
+        return 1
+    print(f"verified {args.manifest}")
+    if source_root:
+        print(f"source commit verified against {source_root}")
+    return 0
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         prog="fieldlight-proof",
-        description="Mine and verify Fieldlight proof-of-work manifests.",
+        description="Create and verify Fieldlight provenance and proof manifests.",
     )
     subparsers = parser.add_subparsers(dest="command", required=True)
 
@@ -91,6 +127,31 @@ def build_parser() -> argparse.ArgumentParser:
     opreturn = subparsers.add_parser("opreturn", help="print the Bitcoin OP_RETURN payload")
     opreturn.add_argument("manifest", help="manifest JSON path")
     opreturn.set_defaults(func=command_opreturn)
+
+    snapshot = subparsers.add_parser(
+        "snapshot",
+        help="create an immutable manifest for every tracked file at a Git commit",
+    )
+    snapshot.add_argument("repository", help="local Git repository containing the source corpus")
+    snapshot.add_argument("--ref", default="HEAD", help="commit or ref to snapshot")
+    snapshot.add_argument("--config", required=True, help="corpus metadata and reading-URL policy")
+    snapshot.add_argument("--output", required=True, help="new or existing snapshot output directory")
+    snapshot.add_argument(
+        "--previous-manifest-sha256",
+        help="SHA-256 of the preceding immutable corpus manifest",
+    )
+    snapshot.set_defaults(func=command_snapshot)
+
+    verify_corpus = subparsers.add_parser(
+        "verify-corpus",
+        help="verify a corpus manifest, checksum, and optionally its pinned Git source",
+    )
+    verify_corpus.add_argument("manifest", help="corpus manifest JSON path")
+    verify_corpus.add_argument(
+        "--source-root",
+        help="local clone containing the source commit for full byte verification",
+    )
+    verify_corpus.set_defaults(func=command_verify_corpus)
 
     return parser
 

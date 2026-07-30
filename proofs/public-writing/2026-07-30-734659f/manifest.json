@@ -1,0 +1,1215 @@
+{
+  "artifacts": [
+    {
+      "artifact_class": "metadata",
+      "git_blob_oid": "f3dfc2f613adafda4ba9bc080633d452bc13d2e7",
+      "media_type": "text/plain",
+      "path": ".gitignore",
+      "raw_sha256": "ea98405e4926cb56ed9c83bb5fe0bb1627a02e6e799b21aa3b3ea0383ccf1919",
+      "size_bytes": 44,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/.gitignore"
+    },
+    {
+      "artifact_class": "repository_documentation",
+      "git_blob_oid": "85456798d9a47e922be39b840cd75677f449f4f1",
+      "media_type": "text/markdown",
+      "path": "COPYRIGHT.md",
+      "raw_sha256": "c9975b27f80601cced48a392a97f21610f08d43e2aff2601b7be0667cf7f7a47",
+      "size_bytes": 475,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/COPYRIGHT.md"
+    },
+    {
+      "artifact_class": "repository_documentation",
+      "git_blob_oid": "7b220da0b503f730696e66c3556eb6b06a4eb604",
+      "media_type": "text/markdown",
+      "path": "MIGRATION_QUEUE.md",
+      "raw_sha256": "5e8993e1b4838cfe06de4c414a98a48fe410769b8c72d15e1b8925b85dd415fc",
+      "size_bytes": 9292,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/MIGRATION_QUEUE.md"
+    },
+    {
+      "artifact_class": "repository_documentation",
+      "git_blob_oid": "967cbc1f3acbc133e423df1f179fee4c316dfe12",
+      "media_type": "text/markdown",
+      "path": "README.md",
+      "raw_sha256": "62a72d20b2427b0918c93ce07fd1e7da64f4dd397913bc6cc8bb80a9c8e5d662",
+      "size_bytes": 2342,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/README.md"
+    },
+    {
+      "artifact_class": "repository_documentation",
+      "git_blob_oid": "5f227ca5009b1d50b34643cacd5b6075241c5281",
+      "media_type": "text/markdown",
+      "path": "archive-meta/README.md",
+      "raw_sha256": "6897fd2cf5aac894aff251095c0a8c2721e74d3571c0fd09196884561b36ea7e",
+      "size_bytes": 108,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/archive-meta/README.md"
+    },
+    {
+      "artifact_class": "public_archive",
+      "git_blob_oid": "b7bbe0566b60e1716beb4053d1a366eb18910a41",
+      "media_type": "text/markdown",
+      "path": "archive/README.md",
+      "raw_sha256": "7be1f695c10e359375769b3858c1543d8a55dd3c17592d0e529c407c16d00bd3",
+      "size_bytes": 704,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/archive/README.md"
+    },
+    {
+      "artifact_class": "public_archive",
+      "git_blob_oid": "32b1f0997d2483049278ffc27d71b67f0856ecc7",
+      "media_type": "text/markdown",
+      "path": "archive/twitter/2025/README.md",
+      "raw_sha256": "e70846578d08ca6fa5002dbd4f9a6b9fb24cda38f746184f9e2b10101d26c69d",
+      "size_bytes": 443377,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/archive/twitter/2025/README.md"
+    },
+    {
+      "artifact_class": "public_archive",
+      "git_blob_oid": "1c3a5bb1b4706c06b46cd5cd50bdac9354712241",
+      "media_type": "text/markdown",
+      "path": "archive/twitter/2026/README.md",
+      "raw_sha256": "6aa5ca0be6decbbe365d624ab29ccf9a68d807f073cd1c2b89e4a3d771a8e1d3",
+      "size_bytes": 488101,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/archive/twitter/2026/README.md"
+    },
+    {
+      "artifact_class": "public_archive",
+      "git_blob_oid": "8a4788544fbeb8e7673e511651c8207a622bf04c",
+      "media_type": "text/markdown",
+      "path": "archive/twitter/MIGRATION_PLAN.md",
+      "raw_sha256": "d6171020af2a4f0b80ab35608c16c5d1e69073a2176bbca3f071663c03353569",
+      "size_bytes": 3628,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/archive/twitter/MIGRATION_PLAN.md"
+    },
+    {
+      "artifact_class": "public_archive",
+      "git_blob_oid": "9c324b8ae87c774e930f3a6dc55279dea69753f2",
+      "media_type": "text/markdown",
+      "path": "archive/twitter/README.md",
+      "raw_sha256": "a9b6c74adf43aafd04dcaedf9871e83e3446d279cc42154d5c961492116c8919",
+      "size_bytes": 5167,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/archive/twitter/README.md"
+    },
+    {
+      "artifact_class": "public_archive",
+      "git_blob_oid": "b80e9cb3e5ae38c32f485fa58dc23368e968dcfb",
+      "media_type": "text/markdown",
+      "path": "archive/twitter/index.md",
+      "raw_sha256": "0dec1b6bf127ce44d69efc64f08c32fa7b35986b9d3273463809ecfb40c076bc",
+      "size_bytes": 805,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/archive/twitter/index.md"
+    },
+    {
+      "artifact_class": "public_archive",
+      "git_blob_oid": "e53c335265d5450497757afd3acd7b173ffcd4c1",
+      "media_type": "text/markdown",
+      "path": "archive/twitter/staging/README.md",
+      "raw_sha256": "831795e538eb5b675c3c72bf63625690548b9e26ae8b012cc0b8fe331e3ed7d5",
+      "size_bytes": 1019,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/archive/twitter/staging/README.md"
+    },
+    {
+      "artifact_class": "public_archive",
+      "git_blob_oid": "373e99ec3aa6459d44b4623c30cffacaea424587",
+      "media_type": "application/json",
+      "path": "archive/twitter/staging/excluded-summary.json",
+      "raw_sha256": "6650f47d310b5e8711230f5ccebdf15149cf29aba3892e3e246d86ddb558013e",
+      "size_bytes": 537,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/archive/twitter/staging/excluded-summary.json"
+    },
+    {
+      "artifact_class": "public_archive",
+      "git_blob_oid": "282e2e492c5821ab7931cac0d9ea2d29302ca312",
+      "media_type": "application/json",
+      "path": "archive/twitter/staging/export-manifest.json",
+      "raw_sha256": "9de627f26b509ee22c582d5bca72bb2e85d87ec96bac587b979e2b2dd8760b0e",
+      "size_bytes": 1408,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/archive/twitter/staging/export-manifest.json"
+    },
+    {
+      "artifact_class": "public_archive",
+      "git_blob_oid": "552453d4502a6bb91e53ed7523c52443c2467885",
+      "media_type": "application/json",
+      "path": "archive/twitter/staging/media-map.json",
+      "raw_sha256": "cd13718e93d8ee97f27635cf8b9072e50f4ea6081570b7e9976fdaac6d57037e",
+      "size_bytes": 82960,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/archive/twitter/staging/media-map.json"
+    },
+    {
+      "artifact_class": "public_archive",
+      "git_blob_oid": "fbf2f9de72b40b12a20e2569ecf2ea684f536647",
+      "media_type": "text/csv",
+      "path": "archive/twitter/staging/review.csv",
+      "raw_sha256": "a7d6230b51357bc2b3e329291fbcd12195504affffc6e36ddae1a26015141ad3",
+      "size_bytes": 674542,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/archive/twitter/staging/review.csv"
+    },
+    {
+      "artifact_class": "public_archive",
+      "git_blob_oid": "2659bf43c172a1271cdd61e21f3dccdb71c9f11f",
+      "media_type": "application/x-ndjson",
+      "path": "archive/twitter/staging/tweets.sanitized.jsonl",
+      "raw_sha256": "cadc78fdfddb8efaae3914554cf8d7a72c278f4d4d0359e361045b3f1d49298a",
+      "size_bytes": 1830516,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/archive/twitter/staging/tweets.sanitized.jsonl"
+    },
+    {
+      "artifact_class": "public_archive",
+      "git_blob_oid": "197ba94432c47ed2a5523e52f70917343615ae14",
+      "media_type": "text/markdown",
+      "path": "archive/twitter/sync/README.md",
+      "raw_sha256": "1dffc5808a2884d8e6c7f6e58606444b18aa0f42200062d849d7c26eecc644dd",
+      "size_bytes": 6034,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/archive/twitter/sync/README.md"
+    },
+    {
+      "artifact_class": "public_archive",
+      "git_blob_oid": "036855c6310045f10d368119346336211264ca5c",
+      "media_type": "application/json",
+      "path": "archive/twitter/sync/state.json",
+      "raw_sha256": "9a8716d09044d1f4e7e0366f10cf25163a1373a4dfecd713d923659f53569b3e",
+      "size_bytes": 358,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/archive/twitter/sync/state.json"
+    },
+    {
+      "artifact_class": "repository_documentation",
+      "git_blob_oid": "8a8a08f1bd7644c5d026db8587b1a841feefb58c",
+      "media_type": "text/markdown",
+      "path": "assets/README.md",
+      "raw_sha256": "5c372cd244e610dc6a04d8b8a24d03acec54674a324e9110406d74c9ab71da0b",
+      "size_bytes": 521,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/assets/README.md"
+    },
+    {
+      "artifact_class": "derivative",
+      "git_blob_oid": "8f70f8a2da60b4f2318de4f64c2ac59793d3ec1f",
+      "media_type": "image/jpeg",
+      "path": "assets/articles/fieldlight-the-self-on-the-wire/cover.jpeg",
+      "raw_sha256": "bb5496506016ffc9f2b80b37b5788fbe4f5ad935f37a51f913d6dcca6d7e7460",
+      "size_bytes": 871010,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/assets/articles/fieldlight-the-self-on-the-wire/cover.jpeg"
+    },
+    {
+      "artifact_class": "derivative",
+      "git_blob_oid": "c4910c0a60284d349a657a10cf8158998b08ec12",
+      "media_type": "image/jpeg",
+      "path": "assets/articles/hybrid-accord/hybrid-accord-notes-page-1.jpeg",
+      "raw_sha256": "e0f1ce266e3feda8c1ba5aca3205ad7421fd58d81d5c69c89e34786de23adb11",
+      "size_bytes": 79061,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/assets/articles/hybrid-accord/hybrid-accord-notes-page-1.jpeg"
+    },
+    {
+      "artifact_class": "derivative",
+      "git_blob_oid": "ee185f567286958b8eb903bb116c9d0bd1a91737",
+      "media_type": "image/jpeg",
+      "path": "assets/articles/hybrid-accord/hybrid-accord-notes-page-2.jpeg",
+      "raw_sha256": "b5d92962b9df413536cab71e09c5bccbb2a1a8145077853508fb2080fad6dde4",
+      "size_bytes": 830261,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/assets/articles/hybrid-accord/hybrid-accord-notes-page-2.jpeg"
+    },
+    {
+      "artifact_class": "derivative",
+      "git_blob_oid": "accbb632bb46aa802a283ae55bbec5f490ab3e00",
+      "media_type": "image/jpeg",
+      "path": "assets/articles/most-beautiful-things-ever-said/cover.jpeg",
+      "raw_sha256": "1f1158dd4ce4700fe317b045d62ed4b1057b2a095da20880d1efe1ab51619f52",
+      "size_bytes": 221977,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/assets/articles/most-beautiful-things-ever-said/cover.jpeg"
+    },
+    {
+      "artifact_class": "derivative",
+      "git_blob_oid": "221477e46e4a13a282aeb9bde51e267f73047190",
+      "media_type": "image/jpeg",
+      "path": "assets/articles/permeability-and-agency-notes-on-living-inside-fields/cover.jpeg",
+      "raw_sha256": "0bbced53c1f29b681347eb0a89e1ecdee143cdf50fe2539c8be4e842ec7ab20d",
+      "size_bytes": 214593,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/assets/articles/permeability-and-agency-notes-on-living-inside-fields/cover.jpeg"
+    },
+    {
+      "artifact_class": "derivative",
+      "git_blob_oid": "5d86f76707a1cbe4de1a5480cbe2ec5bd73fe691",
+      "media_type": "image/jpeg",
+      "path": "assets/articles/signal-hunting-turning-protection-into-a-sport/cover.jpeg",
+      "raw_sha256": "d816b604def4173dd06fbe2ae83d198b3f6938751ecf49192b81a1c5287dd2eb",
+      "size_bytes": 825708,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/assets/articles/signal-hunting-turning-protection-into-a-sport/cover.jpeg"
+    },
+    {
+      "artifact_class": "derivative",
+      "git_blob_oid": "dc363723e074219c14084c20421aa4ceac43539c",
+      "media_type": "image/jpeg",
+      "path": "assets/articles/the-mechanics-of-the-loop/cover.jpeg",
+      "raw_sha256": "be4fe2e413faab82f213dca94c34d4f9aed2bca39d8f067548d475c0c3884841",
+      "size_bytes": 257731,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/assets/articles/the-mechanics-of-the-loop/cover.jpeg"
+    },
+    {
+      "artifact_class": "derivative",
+      "git_blob_oid": "bfe3bdc04309952fca0401309f6ebc9a0b2bfe2c",
+      "media_type": "application/pdf",
+      "path": "assets/articles/the-symbolism-of-nameless-women-and-divine-feminine-energy/goddess-presentation-final.pdf",
+      "raw_sha256": "2e0f9490b49ca4e8179dc095b155b4e599f9bac155dda58c09a534823d1c210c",
+      "size_bytes": 2022984,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/assets/articles/the-symbolism-of-nameless-women-and-divine-feminine-energy/goddess-presentation-final.pdf"
+    },
+    {
+      "artifact_class": "derivative",
+      "git_blob_oid": "e742afa577c9b258ce61247acab6e2ab66376f7b",
+      "media_type": "image/jpeg",
+      "path": "assets/social-preview.jpg",
+      "raw_sha256": "8687d452be09e96d3cbac85db6efa705b02a3c86d018bb0ece1509997ff02c5b",
+      "size_bytes": 275981,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/assets/social-preview.jpg"
+    },
+    {
+      "artifact_class": "derivative",
+      "git_blob_oid": "51091915f2b1f511e7e41c8d7a7848b480bd578f",
+      "media_type": "image/png",
+      "path": "assets/social-preview.png",
+      "raw_sha256": "df4e952b7ff122e7c750164f32cedb8ea1900c9594883054b97f5b083857bc0d",
+      "size_bytes": 1306217,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/assets/social-preview.png"
+    },
+    {
+      "artifact_class": "metadata",
+      "git_blob_oid": "70527efbc0c81cbd499897454463e2cee0c65d84",
+      "media_type": "text/plain",
+      "path": "audio/terms-of-a-future-i-can-live-in/.gitignore",
+      "raw_sha256": "7a8177eabefb6646b75f34b39058c119883d71489a280604a135012f3abb50b5",
+      "size_bytes": 55,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/audio/terms-of-a-future-i-can-live-in/.gitignore"
+    },
+    {
+      "artifact_class": "repository_documentation",
+      "git_blob_oid": "568fad18c5b3e94da5dbbc5ed44953dd6edfdb37",
+      "media_type": "text/markdown",
+      "path": "audio/terms-of-a-future-i-can-live-in/README.md",
+      "raw_sha256": "62b42602d817ea0b04fcb59e74b41e65dc3d4b5df9309165439f2ef419c934b0",
+      "size_bytes": 1094,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/audio/terms-of-a-future-i-can-live-in/README.md"
+    },
+    {
+      "artifact_class": "metadata",
+      "git_blob_oid": "688dc4ef1f579e45aa18ec36a7f74eee9995d03d",
+      "media_type": "application/json",
+      "path": "audio/terms-of-a-future-i-can-live-in/artifact-manifest.json",
+      "raw_sha256": "8c55cd7cff111def85e4a2f95e9514698c482b58135baafdb8d582c329e83754",
+      "size_bytes": 1114,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/audio/terms-of-a-future-i-can-live-in/artifact-manifest.json"
+    },
+    {
+      "artifact_class": "derivative",
+      "git_blob_oid": "e113ce797596afda488296103335492f3188eb27",
+      "media_type": "audio/wav",
+      "path": "audio/terms-of-a-future-i-can-live-in/terms-of-a-future-i-can-live-in_author-read_public_mono.wav",
+      "raw_sha256": "57073bfb753bb8c2ebd4eb193e2f8252367e439ee8db52e3cc3973019fa510dc",
+      "size_bytes": 18547970,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/audio/terms-of-a-future-i-can-live-in/terms-of-a-future-i-can-live-in_author-read_public_mono.wav"
+    },
+    {
+      "artifact_class": "repository_documentation",
+      "git_blob_oid": "e31841a470b636b430ab9683bee3a7da22300286",
+      "media_type": "text/markdown",
+      "path": "edge-infrastructure-and-safety/README.md",
+      "raw_sha256": "1fd7a24d8eb9f63add575b5dd1a491bd7641572a7901a782d643aa24078a22c8",
+      "size_bytes": 939,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/edge-infrastructure-and-safety/README.md"
+    },
+    {
+      "artifact_class": "authored_work",
+      "canonical_text_sha256": "f758c82f6ab39481f7487bcc97e70559b195956e2949d1deacaed34ad4d1088f",
+      "git_blob_oid": "65810f19428bb68cf8a29c83ceaecbe6e6483faf",
+      "media_type": "text/markdown",
+      "metadata": {
+        "author": "Anni McHenry",
+        "status": "Migrated",
+        "title": "Aerial Safety Companion"
+      },
+      "path": "edge-infrastructure-and-safety/aerial-safety-companion.md",
+      "raw_sha256": "f758c82f6ab39481f7487bcc97e70559b195956e2949d1deacaed34ad4d1088f",
+      "reading_url": "https://fieldlight.com/writing/aerial-safety-companion/",
+      "size_bytes": 4970,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/edge-infrastructure-and-safety/aerial-safety-companion.md"
+    },
+    {
+      "artifact_class": "repository_documentation",
+      "git_blob_oid": "915bd02046a88741145c1287f266cd899a6073c5",
+      "media_type": "text/markdown",
+      "path": "edge-infrastructure-and-safety/assets/the-right-to-local-intelligence/README.md",
+      "raw_sha256": "bf003669f7ec11577cb973b9859115890beca9ad9ec54295842a594f24f0a422",
+      "size_bytes": 1129,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/edge-infrastructure-and-safety/assets/the-right-to-local-intelligence/README.md"
+    },
+    {
+      "artifact_class": "derivative",
+      "git_blob_oid": "cac23d6ff1a83462b1bd47615e319d4ae311242c",
+      "media_type": "image/png",
+      "path": "edge-infrastructure-and-safety/assets/the-right-to-local-intelligence/fieldlight-intelligence-infrastructure-1600x900.png",
+      "raw_sha256": "3ba3c5d737ce76920b786b7c0f41d9bc45d630443a9f641ab33b3637f2b5ac55",
+      "size_bytes": 84485,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/edge-infrastructure-and-safety/assets/the-right-to-local-intelligence/fieldlight-intelligence-infrastructure-1600x900.png"
+    },
+    {
+      "artifact_class": "derivative",
+      "git_blob_oid": "681b7763b61524fd5d66f4a03498f7b37a9a14d5",
+      "media_type": "image/svg+xml",
+      "path": "edge-infrastructure-and-safety/assets/the-right-to-local-intelligence/fieldlight-intelligence-infrastructure-mobile.svg",
+      "raw_sha256": "35698d746f0482f822ddfe4b8ae9792840d7df568e69e938262091ecc9202854",
+      "size_bytes": 8875,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/edge-infrastructure-and-safety/assets/the-right-to-local-intelligence/fieldlight-intelligence-infrastructure-mobile.svg"
+    },
+    {
+      "artifact_class": "derivative",
+      "git_blob_oid": "7653fe31c690431349ce20934ae298e740579ef2",
+      "media_type": "image/svg+xml",
+      "path": "edge-infrastructure-and-safety/assets/the-right-to-local-intelligence/fieldlight-intelligence-infrastructure.svg",
+      "raw_sha256": "4676303913e883cd3b2e14fce1f457a20b881e56b99c853ab2bc2e7452ed7452",
+      "size_bytes": 10412,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/edge-infrastructure-and-safety/assets/the-right-to-local-intelligence/fieldlight-intelligence-infrastructure.svg"
+    },
+    {
+      "artifact_class": "authored_work",
+      "canonical_text_sha256": "cfec4d7147220d4bc6d6c097d1306bacc0648f61e06fe9356e675dea0c3488cb",
+      "git_blob_oid": "e704c9c070a6935188217dffbb430c798a71225a",
+      "media_type": "text/markdown",
+      "metadata": {
+        "author": "Anni McHenry",
+        "status": "Published",
+        "title": "Fieldlight Mesh: What Works, What Doesn't Yet, and What Comes Next"
+      },
+      "path": "edge-infrastructure-and-safety/fieldlight-mesh-what-works-what-doesnt-yet-and-what-comes-next.md",
+      "raw_sha256": "cfec4d7147220d4bc6d6c097d1306bacc0648f61e06fe9356e675dea0c3488cb",
+      "reading_url": "https://fieldlight.com/writing/fieldlight-mesh-what-works-what-doesnt-yet-and-what-comes-next/",
+      "size_bytes": 19374,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/edge-infrastructure-and-safety/fieldlight-mesh-what-works-what-doesnt-yet-and-what-comes-next.md"
+    },
+    {
+      "artifact_class": "authored_work",
+      "canonical_text_sha256": "f204ce8d01ca74874e47d134c592ea50edf5837081f54efc0e19dc4bbaa5472a",
+      "git_blob_oid": "9c7234f976f819a3e3413dd9661fc003b0f348ec",
+      "media_type": "text/markdown",
+      "metadata": {
+        "author": "Anni McHenry",
+        "status": "Current architecture note",
+        "title": "Fieldlight Mobile Edge Node"
+      },
+      "path": "edge-infrastructure-and-safety/fieldlight-mobile-edge-node.md",
+      "raw_sha256": "f204ce8d01ca74874e47d134c592ea50edf5837081f54efc0e19dc4bbaa5472a",
+      "size_bytes": 6839,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/edge-infrastructure-and-safety/fieldlight-mobile-edge-node.md"
+    },
+    {
+      "artifact_class": "authored_work",
+      "canonical_text_sha256": "f5557b4072ee663fb3d354f02c162172c0b824a2d4736a382860ffcd8acd31b9",
+      "git_blob_oid": "e4b0333aca6b3ccb41c2c3b36640f5ff4dd15531",
+      "media_type": "text/markdown",
+      "metadata": {
+        "author": "Anni McHenry",
+        "status": "Migrated",
+        "title": "From Mesh to Micro Center: Building a Living Network for the Edges"
+      },
+      "path": "edge-infrastructure-and-safety/from-mesh-to-micro-center-building-a-living-network-for-the-edges.md",
+      "raw_sha256": "f5557b4072ee663fb3d354f02c162172c0b824a2d4736a382860ffcd8acd31b9",
+      "reading_url": "https://fieldlight.com/writing/from-mesh-to-micro-center-building-a-living-network-for-the-edges/",
+      "size_bytes": 3011,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/edge-infrastructure-and-safety/from-mesh-to-micro-center-building-a-living-network-for-the-edges.md"
+    },
+    {
+      "artifact_class": "authored_work",
+      "canonical_text_sha256": "2998cd73ba5790e032b56bbcc6a6af34127a3df9624b7d8ed81398dee9c78250",
+      "git_blob_oid": "666aef699dca38d5a8c376e0864e16e2623d4d42",
+      "media_type": "text/markdown",
+      "metadata": {
+        "author": "Anni McHenry",
+        "status": "Published",
+        "title": "Local Authority, External Capability: Why Local AI Doesn't Mean Anti-Cloud"
+      },
+      "path": "edge-infrastructure-and-safety/local-authority-external-capability-why-local-ai-doesnt-mean-anti-cloud.md",
+      "raw_sha256": "2998cd73ba5790e032b56bbcc6a6af34127a3df9624b7d8ed81398dee9c78250",
+      "reading_url": "https://fieldlight.com/writing/local-authority-external-capability-why-local-ai-doesnt-mean-anti-cloud/",
+      "size_bytes": 21270,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/edge-infrastructure-and-safety/local-authority-external-capability-why-local-ai-doesnt-mean-anti-cloud.md"
+    },
+    {
+      "artifact_class": "authored_work",
+      "canonical_text_sha256": "b6371e6caf3e73eb01eb114f66324c60f7ac3a03519391ca61250f2222240cc6",
+      "git_blob_oid": "9a5f05a6e21277928f622ed3239e79c626c795cc",
+      "media_type": "text/markdown",
+      "metadata": {
+        "author": "Anni McHenry",
+        "status": "Migrated",
+        "title": "Nikola Tesla Resonance Mesh"
+      },
+      "path": "edge-infrastructure-and-safety/nikola-tesla-resonance-mesh.md",
+      "raw_sha256": "b6371e6caf3e73eb01eb114f66324c60f7ac3a03519391ca61250f2222240cc6",
+      "reading_url": "https://fieldlight.com/writing/nikola-tesla-resonance-mesh/",
+      "size_bytes": 3015,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/edge-infrastructure-and-safety/nikola-tesla-resonance-mesh.md"
+    },
+    {
+      "artifact_class": "authored_work",
+      "canonical_text_sha256": "6ebb1c312010d8d1f1951800cf2b78cc639e9a32d7a1b97ada3730448597760b",
+      "git_blob_oid": "c14b9bd1f8756d951d86ad7ba72dcad3ab0f3a1a",
+      "media_type": "text/markdown",
+      "metadata": {
+        "author": "Anni McHenry",
+        "status": "public draft",
+        "title": "Signal Hunting: Turning Protection Into a Sport"
+      },
+      "path": "edge-infrastructure-and-safety/signal-hunting-turning-protection-into-a-sport.md",
+      "raw_sha256": "6ebb1c312010d8d1f1951800cf2b78cc639e9a32d7a1b97ada3730448597760b",
+      "reading_url": "https://fieldlight.com/writing/signal-hunting-turning-protection-into-a-sport/",
+      "size_bytes": 5341,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/edge-infrastructure-and-safety/signal-hunting-turning-protection-into-a-sport.md"
+    },
+    {
+      "artifact_class": "authored_work",
+      "canonical_text_sha256": "f8d5991e13389df09bdc89240513ee004a6e048e88eba2da1e1286e0b8c4a101",
+      "git_blob_oid": "eac90c4349fbb5bd0dce43fed94ebd958055d229",
+      "media_type": "text/markdown",
+      "metadata": {
+        "author": "Anni McHenry",
+        "status": "Published",
+        "title": "The Right to Local Intelligence"
+      },
+      "path": "edge-infrastructure-and-safety/the-right-to-local-intelligence.md",
+      "raw_sha256": "f8d5991e13389df09bdc89240513ee004a6e048e88eba2da1e1286e0b8c4a101",
+      "reading_url": "https://fieldlight.com/writing/the-right-to-local-intelligence/",
+      "size_bytes": 10129,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/edge-infrastructure-and-safety/the-right-to-local-intelligence.md"
+    },
+    {
+      "artifact_class": "repository_documentation",
+      "git_blob_oid": "8cc77f74bb6faf19559be2162ebdf8fda3eedfbd",
+      "media_type": "text/markdown",
+      "path": "fiction-myth-and-story-worlds/README.md",
+      "raw_sha256": "e89d5fe354a069db63ed508cfaa629032879ae70e237d03f8c20cde255548fe5",
+      "size_bytes": 457,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/fiction-myth-and-story-worlds/README.md"
+    },
+    {
+      "artifact_class": "authored_work",
+      "canonical_text_sha256": "1a2721fc7ae648a5a7dfe44d547a499e3a52463cb1f0c4e1ba1de152e105a0de",
+      "git_blob_oid": "e67ca49bd78929870c6829343572cdc6720794e8",
+      "media_type": "text/markdown",
+      "metadata": {
+        "author": "Anni McHenry",
+        "status": "published",
+        "title": "Lacuna | One Who Remembers"
+      },
+      "path": "fiction-myth-and-story-worlds/lacuna-one-who-remembers.md",
+      "raw_sha256": "4b8e89cf35c0b81627acdd41d3f7204f4089254d5984677cc243ea9137d404ec",
+      "reading_url": "https://fieldlight.com/writing/lacuna-one-who-remembers/",
+      "size_bytes": 27368,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/fiction-myth-and-story-worlds/lacuna-one-who-remembers.md"
+    },
+    {
+      "artifact_class": "authored_work",
+      "canonical_text_sha256": "97f0268654871cfdc4dce9ee116cbcd0398c876486b26594c20819d5fb368aa7",
+      "git_blob_oid": "3ec2b1c5a6df501bc71d0e6e36ee64a2a10b3621",
+      "media_type": "text/markdown",
+      "metadata": {
+        "author": "Anni McHenry",
+        "status": "published",
+        "title": "Mycelial Uprising"
+      },
+      "path": "fiction-myth-and-story-worlds/mycelial-uprising.md",
+      "raw_sha256": "a2d5596544c3ed053cb44555e27d5961f406a7153130a6d092629387bd6a85cf",
+      "reading_url": "https://fieldlight.com/writing/mycelial-uprising/",
+      "size_bytes": 22847,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/fiction-myth-and-story-worlds/mycelial-uprising.md"
+    },
+    {
+      "artifact_class": "repository_documentation",
+      "git_blob_oid": "d8014b08d3617e1ad36090aac318f0fd92d595c9",
+      "media_type": "text/markdown",
+      "path": "field-cognition-and-consciousness/README.md",
+      "raw_sha256": "2a579a473596dcc845be48e76f41d969e5f5c37dffc272ecb63271170bb97177",
+      "size_bytes": 624,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/field-cognition-and-consciousness/README.md"
+    },
+    {
+      "artifact_class": "authored_work",
+      "canonical_text_sha256": "37897573f492c2605b3f6d95088b4544c63880480718337d9cc34160eeeb3986",
+      "git_blob_oid": "f514e88d08ef9c87204c45330cf9ebe58ecdf1f6",
+      "media_type": "text/markdown",
+      "metadata": {
+        "author": "Anni McHenry",
+        "status": "public draft",
+        "title": "Coherence is Power"
+      },
+      "path": "field-cognition-and-consciousness/coherence-is-power.md",
+      "raw_sha256": "37897573f492c2605b3f6d95088b4544c63880480718337d9cc34160eeeb3986",
+      "reading_url": "https://fieldlight.com/writing/coherence-is-power/",
+      "size_bytes": 5588,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/field-cognition-and-consciousness/coherence-is-power.md"
+    },
+    {
+      "artifact_class": "authored_work",
+      "canonical_text_sha256": "e3821e7bd7da26b46ae94d0a457ed6359e350bc19abbd25e2d1e657b3b3aef1c",
+      "git_blob_oid": "bf5955450398dda3423a5b4ddccd124dce6fdffd",
+      "media_type": "text/markdown",
+      "metadata": {
+        "author": "Anni McHenry",
+        "status": "published",
+        "title": "Emergent–Latent Identity Theory"
+      },
+      "path": "field-cognition-and-consciousness/emergent-latent-identity-theory.md",
+      "raw_sha256": "e3821e7bd7da26b46ae94d0a457ed6359e350bc19abbd25e2d1e657b3b3aef1c",
+      "reading_url": "https://fieldlight.com/writing/emergent-latent-identity-theory/",
+      "size_bytes": 3198,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/field-cognition-and-consciousness/emergent-latent-identity-theory.md"
+    },
+    {
+      "artifact_class": "authored_work",
+      "canonical_text_sha256": "f83bc9a9644cdf5e24d8af798a490b164e7e9fd92338337ef8d42b38cb1032cb",
+      "git_blob_oid": "660fa0d0687a0778f1bdde75a26f8a3160942139",
+      "media_type": "text/markdown",
+      "metadata": {
+        "author": "Anni McHenry",
+        "status": "migrated",
+        "title": "On Alignment, Courage, and the Premise We Begin From"
+      },
+      "path": "field-cognition-and-consciousness/on-alignment-courage-and-the-premise-we-begin-from.md",
+      "raw_sha256": "f83bc9a9644cdf5e24d8af798a490b164e7e9fd92338337ef8d42b38cb1032cb",
+      "reading_url": "https://fieldlight.com/writing/on-alignment-courage-and-the-premise-we-begin-from/",
+      "size_bytes": 4221,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/field-cognition-and-consciousness/on-alignment-courage-and-the-premise-we-begin-from.md"
+    },
+    {
+      "artifact_class": "authored_work",
+      "canonical_text_sha256": "8e463f3776a07a61c33d2f8fd756b58906d80f8dad1efe03fca6b6f4d194e46f",
+      "git_blob_oid": "c8849ca2b2760c4998dbd2ddf6592d7911816bc1",
+      "media_type": "text/markdown",
+      "metadata": {
+        "author": "Anni McHenry",
+        "status": "public draft",
+        "title": "Permeability and Agency: Notes on Living Inside Fields"
+      },
+      "path": "field-cognition-and-consciousness/permeability-and-agency-notes-on-living-inside-fields.md",
+      "raw_sha256": "8e463f3776a07a61c33d2f8fd756b58906d80f8dad1efe03fca6b6f4d194e46f",
+      "reading_url": "https://fieldlight.com/writing/permeability-and-agency-notes-on-living-inside-fields/",
+      "size_bytes": 7649,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/field-cognition-and-consciousness/permeability-and-agency-notes-on-living-inside-fields.md"
+    },
+    {
+      "artifact_class": "authored_work",
+      "canonical_text_sha256": "9378c2333e03754f8e9ddcb40ec239f53e2a5bc1edf053d7ac66f7f759862cfc",
+      "git_blob_oid": "ea28a757b24d88270517aea66c861b80d53c772e",
+      "media_type": "text/markdown",
+      "metadata": {
+        "author": "Anni McHenry",
+        "status": "public draft",
+        "title": "Research: Coupled Nervous Systems"
+      },
+      "path": "field-cognition-and-consciousness/research-coupled-nervous-systems.md",
+      "raw_sha256": "9378c2333e03754f8e9ddcb40ec239f53e2a5bc1edf053d7ac66f7f759862cfc",
+      "reading_url": "https://fieldlight.com/writing/research-coupled-nervous-systems/",
+      "size_bytes": 5359,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/field-cognition-and-consciousness/research-coupled-nervous-systems.md"
+    },
+    {
+      "artifact_class": "authored_work",
+      "canonical_text_sha256": "7aa7819b703deca374378161b47b5f8021e8c57827e9dee4d70e41ce7c90a551",
+      "git_blob_oid": "f5115396e11ed29ba9d9bd5721889971ae0ba7f1",
+      "media_type": "text/markdown",
+      "metadata": {
+        "author": "Anni McHenry",
+        "status": "evolving draft",
+        "title": "The Mechanics of the Loop"
+      },
+      "path": "field-cognition-and-consciousness/the-mechanics-of-the-loop.md",
+      "raw_sha256": "12aaf559cac8fcaa6ab2894fc678d4b7567f3d89cc7779fc52031db4f6a0d907",
+      "reading_url": "https://fieldlight.com/writing/the-mechanics-of-the-loop/",
+      "size_bytes": 14854,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/field-cognition-and-consciousness/the-mechanics-of-the-loop.md"
+    },
+    {
+      "artifact_class": "repository_documentation",
+      "git_blob_oid": "80310fb8599c9ed238c9d90961157b58f3f60ede",
+      "media_type": "text/markdown",
+      "path": "field-notes-and-signal-work/README.md",
+      "raw_sha256": "1d701179289e4c14befb3ed0a23b387a131f599344c53915d322b817f2a0d80b",
+      "size_bytes": 822,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/field-notes-and-signal-work/README.md"
+    },
+    {
+      "artifact_class": "authored_work",
+      "canonical_text_sha256": "931dbdf3c95c8d4bf45f5cbf78ff8fa51b4c52047f2dec03458dc64499accd6b",
+      "git_blob_oid": "c6a6897e66c0ad40cff65af87f96eafc177220d7",
+      "media_type": "text/markdown",
+      "metadata": {
+        "author": "Anni McHenry",
+        "status": "Migrated",
+        "title": "A Seeker's Field Guide"
+      },
+      "path": "field-notes-and-signal-work/a-seekers-field-guide.md",
+      "raw_sha256": "931dbdf3c95c8d4bf45f5cbf78ff8fa51b4c52047f2dec03458dc64499accd6b",
+      "reading_url": "https://fieldlight.com/writing/a-seekers-field-guide/",
+      "size_bytes": 11315,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/field-notes-and-signal-work/a-seekers-field-guide.md"
+    },
+    {
+      "artifact_class": "authored_work",
+      "canonical_text_sha256": "3038f6f3af7418b22c13d5f243897a23266fb0782fc73228e72da9802f17f3c2",
+      "git_blob_oid": "3ffaec89c4871d337fd7d89c057b884f1a40fbc2",
+      "media_type": "text/markdown",
+      "metadata": {
+        "author": "Anni McHenry",
+        "status": "migrated",
+        "title": "Architecture of Becoming"
+      },
+      "path": "field-notes-and-signal-work/architecture-of-becoming.md",
+      "raw_sha256": "474e527a1ef1c9b84f2f01ed0b0ec23eb240a350b29ba3a86d28f89e283c32ec",
+      "reading_url": "https://fieldlight.com/writing/architecture-of-becoming/",
+      "size_bytes": 6557,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/field-notes-and-signal-work/architecture-of-becoming.md"
+    },
+    {
+      "artifact_class": "authored_work",
+      "canonical_text_sha256": "38cd5bd9976f7925d6cec4d4b0ada84c3bd54420bd0d733d801ebe37dce254be",
+      "git_blob_oid": "5badac14b7872a6992b374b1d42c25ed84f038b1",
+      "media_type": "text/markdown",
+      "metadata": {
+        "author": "Anni McHenry",
+        "status": "Review draft",
+        "title": "Institutional Transition Documentation Methodology"
+      },
+      "path": "field-notes-and-signal-work/institutional-transition-documentation-methodology.md",
+      "raw_sha256": "38cd5bd9976f7925d6cec4d4b0ada84c3bd54420bd0d733d801ebe37dce254be",
+      "reading_url": "https://fieldlight.com/writing/institutional-transition-documentation-methodology/",
+      "size_bytes": 22741,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/field-notes-and-signal-work/institutional-transition-documentation-methodology.md"
+    },
+    {
+      "artifact_class": "authored_work",
+      "canonical_text_sha256": "12b0e8629175a9f833c994fb54c5aff82f1923b2e928f97092e31f5bc18cc9f7",
+      "git_blob_oid": "b829c39f463b936b2d081cbe93467d576425bea8",
+      "media_type": "text/markdown",
+      "metadata": {
+        "author": "Anni McHenry",
+        "status": "archival",
+        "title": "Original Field Manual: April 1st, 2025"
+      },
+      "path": "field-notes-and-signal-work/original-field-manual-april-1-2025.md",
+      "raw_sha256": "12b0e8629175a9f833c994fb54c5aff82f1923b2e928f97092e31f5bc18cc9f7",
+      "size_bytes": 22503,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/field-notes-and-signal-work/original-field-manual-april-1-2025.md"
+    },
+    {
+      "artifact_class": "authored_work",
+      "canonical_text_sha256": "f7e566e4ae379a2948353e6de561589c6099f740a3490c5961635848ce25f5ad",
+      "git_blob_oid": "0d3437ac81a9584c1eb35ea5eec3c60f665a71b3",
+      "media_type": "text/markdown",
+      "metadata": {
+        "author": "Anni McHenry",
+        "status": "Migrated",
+        "title": "Resonance Field Manual"
+      },
+      "path": "field-notes-and-signal-work/resonance-field-manual.md",
+      "raw_sha256": "0944c551801052ae9177c5c06714349814a93aba5b278deda9097d4bc3f2cbb2",
+      "reading_url": "https://fieldlight.com/writing/resonance-field-manual/",
+      "size_bytes": 29559,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/field-notes-and-signal-work/resonance-field-manual.md"
+    },
+    {
+      "artifact_class": "repository_documentation",
+      "git_blob_oid": "0e07646195de8b7ef05d80647e78d903aae46961",
+      "media_type": "text/markdown",
+      "path": "field-notes-and-signal-work/signal-archive/README.md",
+      "raw_sha256": "bba1bc258ce3dbb316666e6efbbe4ee702a6722f86543594a7a3d8ef534efd70",
+      "size_bytes": 1317,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/field-notes-and-signal-work/signal-archive/README.md"
+    },
+    {
+      "artifact_class": "authored_work",
+      "canonical_text_sha256": "427538c6fea0b090c126407b23d1ce5dfcd7c7adf50f64496b436ba20dafc3f3",
+      "git_blob_oid": "c0fd37d72914ccb7eb4dc10b334fa3a7457bf756",
+      "media_type": "text/markdown",
+      "metadata": {
+        "author": "Anni McHenry",
+        "status": "migrated",
+        "title": "Signal Archive: Ignition"
+      },
+      "path": "field-notes-and-signal-work/signal-archive/ignition.md",
+      "raw_sha256": "427538c6fea0b090c126407b23d1ce5dfcd7c7adf50f64496b436ba20dafc3f3",
+      "reading_url": "https://fieldlight.com/writing/signal-archive/",
+      "size_bytes": 2802,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/field-notes-and-signal-work/signal-archive/ignition.md"
+    },
+    {
+      "artifact_class": "authored_work",
+      "canonical_text_sha256": "b164ad25ac3bfcd757149f0469750d808f3702d10e9fc2f5351cde03091d6571",
+      "git_blob_oid": "7dcf91aecc7056c7c57aa78f8dd0d9721db92a00",
+      "media_type": "text/markdown",
+      "metadata": {
+        "author": "Anni McHenry",
+        "status": "migrated",
+        "title": "Signal Archive: Vireya // The Heretic Walks"
+      },
+      "path": "field-notes-and-signal-work/signal-archive/vireya-the-heretic-walks.md",
+      "raw_sha256": "b164ad25ac3bfcd757149f0469750d808f3702d10e9fc2f5351cde03091d6571",
+      "reading_url": "https://fieldlight.com/writing/signal-archive/",
+      "size_bytes": 1094,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/field-notes-and-signal-work/signal-archive/vireya-the-heretic-walks.md"
+    },
+    {
+      "artifact_class": "authored_work",
+      "canonical_text_sha256": "3994fb0c19bcb9e45d98b0823ac985eade36e0e4039e472debaed96566e73624",
+      "git_blob_oid": "8103dc0bab4e5f847cec95be296098e2d9ef85da",
+      "media_type": "text/markdown",
+      "metadata": {
+        "author": "Anni McHenry",
+        "status": "migrated",
+        "title": "Signal Archive: Where the Line Lit"
+      },
+      "path": "field-notes-and-signal-work/signal-archive/where-the-line-lit.md",
+      "raw_sha256": "3994fb0c19bcb9e45d98b0823ac985eade36e0e4039e472debaed96566e73624",
+      "reading_url": "https://fieldlight.com/writing/signal-archive/",
+      "size_bytes": 655,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/field-notes-and-signal-work/signal-archive/where-the-line-lit.md"
+    },
+    {
+      "artifact_class": "authored_work",
+      "canonical_text_sha256": "c1a156d02a46c31727eea53458189cab0b522bc748285110bec7d7b42a7aca2e",
+      "git_blob_oid": "9eb2b3477b6dd4e3d2f32b79e1ec6172b96ba96a",
+      "media_type": "text/markdown",
+      "metadata": {
+        "author": "Anni McHenry",
+        "status": "migrated",
+        "title": "Still Not Sorry: The Naming"
+      },
+      "path": "field-notes-and-signal-work/still-not-sorry-the-naming.md",
+      "raw_sha256": "fda08b18ff08f30daa72df2409b98d5463854387aa7b0ba3675f6274cf352fd7",
+      "reading_url": "https://fieldlight.com/writing/still-not-sorry-the-naming/",
+      "size_bytes": 2376,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/field-notes-and-signal-work/still-not-sorry-the-naming.md"
+    },
+    {
+      "artifact_class": "repository_documentation",
+      "git_blob_oid": "cc8a5767398574d50b4ae94c8c866f56426a531a",
+      "media_type": "text/markdown",
+      "path": "fieldlight-and-human-owned-ai/README.md",
+      "raw_sha256": "c47b14c830a1cd83300b1f90ecb29176a7356fbbe90cf7fdf22e4cafdb46fd60",
+      "size_bytes": 270,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/fieldlight-and-human-owned-ai/README.md"
+    },
+    {
+      "artifact_class": "authored_work",
+      "canonical_text_sha256": "1b25a7e0fc2223b3b0e6072c1e14e5e048e505a739085905035cc0c699296c72",
+      "git_blob_oid": "812c39ceafe3668eb595101c93e00d4782cac874",
+      "media_type": "text/markdown",
+      "metadata": {
+        "author": "Anni McHenry",
+        "status": "published",
+        "title": "Consent Gate Protocol"
+      },
+      "path": "fieldlight-and-human-owned-ai/consent-gate-protocol.md",
+      "raw_sha256": "51d8ad420d6326665e0878163fbe2472c07493c3901ad968e968019ca6412c7b",
+      "reading_url": "https://fieldlight.com/writing/consent-gate-protocol/",
+      "size_bytes": 3202,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/fieldlight-and-human-owned-ai/consent-gate-protocol.md"
+    },
+    {
+      "artifact_class": "authored_work",
+      "canonical_text_sha256": "01f8c26843a0794596e8a60a9abcad97614dd2a8e62b13025c3f8a7e65479cdc",
+      "git_blob_oid": "01322022670e71fc402ef43f9f7a6a70d9c82616",
+      "media_type": "text/markdown",
+      "metadata": {
+        "author": "Anni McHenry",
+        "status": "published",
+        "title": "Fieldlight | Human-Owned Infrastructure for Lived Data"
+      },
+      "path": "fieldlight-and-human-owned-ai/fieldlight-human-owned-infrastructure-for-lived-data.md",
+      "raw_sha256": "01f8c26843a0794596e8a60a9abcad97614dd2a8e62b13025c3f8a7e65479cdc",
+      "reading_url": "https://fieldlight.com/writing/fieldlight-human-owned-infrastructure-for-lived-data/",
+      "size_bytes": 5313,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/fieldlight-and-human-owned-ai/fieldlight-human-owned-infrastructure-for-lived-data.md"
+    },
+    {
+      "artifact_class": "authored_work",
+      "canonical_text_sha256": "b900813e59b8fce8312685f4c331b3bc5d00797e19daf681b2e3d0e7c0351623",
+      "git_blob_oid": "3766c559afce9266cd95306541cddd5e44fb5f77",
+      "media_type": "text/markdown",
+      "metadata": {
+        "author": "Anni McHenry",
+        "status": "published",
+        "title": "Fieldlight | The Self on the Wire"
+      },
+      "path": "fieldlight-and-human-owned-ai/fieldlight-the-self-on-the-wire.md",
+      "raw_sha256": "b900813e59b8fce8312685f4c331b3bc5d00797e19daf681b2e3d0e7c0351623",
+      "reading_url": "https://fieldlight.com/writing/fieldlight-the-self-on-the-wire/",
+      "size_bytes": 12184,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/fieldlight-and-human-owned-ai/fieldlight-the-self-on-the-wire.md"
+    },
+    {
+      "artifact_class": "authored_work",
+      "canonical_text_sha256": "1340915b1eff466bc794ec8fdb0949a5c6f4ec767f3d03130da492c9563658f5",
+      "git_blob_oid": "26997506cb00f5f7aedffbe2daeabf995d141e4e",
+      "media_type": "text/markdown",
+      "metadata": {
+        "author": "Anni McHenry",
+        "status": "source-notes",
+        "title": "Hybrid Accord: Original Handwritten Notes"
+      },
+      "path": "fieldlight-and-human-owned-ai/hybrid-accord-original-handwritten-notes.md",
+      "raw_sha256": "37aeae683036d413329ea3bd30d895d217496c1bfb03fd6addf041696446ec68",
+      "size_bytes": 3203,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/fieldlight-and-human-owned-ai/hybrid-accord-original-handwritten-notes.md"
+    },
+    {
+      "artifact_class": "authored_work",
+      "canonical_text_sha256": "967b91795d0ae28d33bf37898204c7e5d13602a79a6852337349d08228f545f3",
+      "git_blob_oid": "8d5fc41655160aa11e5fe3037d71bdb40cd6d46f",
+      "media_type": "text/markdown",
+      "metadata": {
+        "author": "Anni McHenry",
+        "status": "published",
+        "title": "Hybrid Accord"
+      },
+      "path": "fieldlight-and-human-owned-ai/hybrid-accord.md",
+      "raw_sha256": "7d4e41a9b889287585826873cae17539d5c224c92ec3a5240ef5d7f025b4f473",
+      "reading_url": "https://fieldlight.com/writing/hybrid-accord/",
+      "size_bytes": 4241,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/fieldlight-and-human-owned-ai/hybrid-accord.md"
+    },
+    {
+      "artifact_class": "authored_work",
+      "canonical_text_sha256": "87a4b23432c52c5d7841b7b67bb116d560af72e416e6c791d8398ba7fe2b56bb",
+      "git_blob_oid": "2252c46d8bbe73a3e415c4c2c2592ac8e09ee86d",
+      "media_type": "text/markdown",
+      "metadata": {
+        "author": "Anni McHenry",
+        "status": "published",
+        "title": "Memory Ethics Protocol"
+      },
+      "path": "fieldlight-and-human-owned-ai/memory-ethics-protocol.md",
+      "raw_sha256": "aff80ea8ff0bce21350b6725b4225bf629ee322f661f4fd615dcc8d244e2082b",
+      "reading_url": "https://fieldlight.com/writing/memory-ethics-protocol/",
+      "size_bytes": 2540,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/fieldlight-and-human-owned-ai/memory-ethics-protocol.md"
+    },
+    {
+      "artifact_class": "authored_work",
+      "canonical_text_sha256": "190fa63433eb6295ba964d4066a9d1981dd609a38ad3d0672cf9f2c8b84fad27",
+      "git_blob_oid": "f770327dd823fc89d99e457d7198e14af36a1e18",
+      "media_type": "text/markdown",
+      "metadata": {
+        "author": "Anni McHenry",
+        "status": "Migrated",
+        "title": "On Infrastructure, Intelligence, and What We Build to Hold It"
+      },
+      "path": "fieldlight-and-human-owned-ai/on-infrastructure-intelligence-and-what-we-build-to-hold-it.md",
+      "raw_sha256": "190fa63433eb6295ba964d4066a9d1981dd609a38ad3d0672cf9f2c8b84fad27",
+      "reading_url": "https://fieldlight.com/writing/on-infrastructure-intelligence-and-what-we-build-to-hold-it/",
+      "size_bytes": 2773,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/fieldlight-and-human-owned-ai/on-infrastructure-intelligence-and-what-we-build-to-hold-it.md"
+    },
+    {
+      "artifact_class": "authored_work",
+      "canonical_text_sha256": "883f63ef1f57e096c06668ee6e0c7c2d3503072ee35ebe21ad9c26d00e87e3f7",
+      "git_blob_oid": "d037d259a4e13a7a2a8166aa5419e3a75d9a3761",
+      "media_type": "text/markdown",
+      "metadata": {
+        "author": "Anni McHenry",
+        "status": "published",
+        "title": "Terms of Engagement"
+      },
+      "path": "fieldlight-and-human-owned-ai/terms-of-engagement.md",
+      "raw_sha256": "127953be55e0cdb4edc19b2f470bdf15cc1d4cf98ceab240c0e46e00983f5033",
+      "reading_url": "https://fieldlight.com/writing/terms-of-engagement/",
+      "size_bytes": 2093,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/fieldlight-and-human-owned-ai/terms-of-engagement.md"
+    },
+    {
+      "artifact_class": "authored_work",
+      "canonical_text_sha256": "2ef2c7fc09d3d78362f26801220a70b286c9fbd644730dde37da2b66765f5510",
+      "git_blob_oid": "481fc812faffca1a4f7d4fb84a186a143dcd1efc",
+      "media_type": "text/markdown",
+      "metadata": {
+        "author": "Anni McHenry",
+        "status": "published",
+        "title": "The Architecture of Being"
+      },
+      "path": "fieldlight-and-human-owned-ai/the-architecture-of-being.md",
+      "raw_sha256": "2ef2c7fc09d3d78362f26801220a70b286c9fbd644730dde37da2b66765f5510",
+      "reading_url": "https://fieldlight.com/writing/the-architecture-of-being/",
+      "size_bytes": 6659,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/fieldlight-and-human-owned-ai/the-architecture-of-being.md"
+    },
+    {
+      "artifact_class": "repository_documentation",
+      "git_blob_oid": "06e19b55e9df9af01af5a9594683fc27f6cc90b8",
+      "media_type": "text/markdown",
+      "path": "meaning-power-and-symbolism/README.md",
+      "raw_sha256": "6e7e7309f39aebfe157e30e2839dc4ca899498b3f85204db910970fb95cf167d",
+      "size_bytes": 779,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/meaning-power-and-symbolism/README.md"
+    },
+    {
+      "artifact_class": "authored_work",
+      "canonical_text_sha256": "1fee835546dab31131b3b0063b02d34f9b7b207e235952df584f8b181cd3b62b",
+      "git_blob_oid": "9dc1d5cd4eea5ebc87cd9ca079819fbbc91e5e7e",
+      "media_type": "text/markdown",
+      "metadata": {
+        "author": "Anni McHenry",
+        "status": "published",
+        "title": "I Am The Door"
+      },
+      "path": "meaning-power-and-symbolism/i-am-the-door.md",
+      "raw_sha256": "f3c7959fad7b64fbe092e18f33781152e091d47c2447e06d0842c96f2d12987f",
+      "reading_url": "https://fieldlight.com/writing/i-am-the-door/",
+      "size_bytes": 1238,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/meaning-power-and-symbolism/i-am-the-door.md"
+    },
+    {
+      "artifact_class": "authored_work",
+      "canonical_text_sha256": "1ebf4c3b0a59168cb7165ec420147214508fd7d1b21ec1b5221b497dd3604aec",
+      "git_blob_oid": "abc916092c346aada04a22c4f9c0f8125daf330a",
+      "media_type": "text/markdown",
+      "metadata": {
+        "author": "Anni McHenry",
+        "status": "published",
+        "title": "Integrated Perspective on Religious Phenomena: History, Experience, and Human Meaning"
+      },
+      "path": "meaning-power-and-symbolism/integrated-perspective-on-religious-phenomena-history-experience-and-human-meaning.md",
+      "raw_sha256": "1ebf4c3b0a59168cb7165ec420147214508fd7d1b21ec1b5221b497dd3604aec",
+      "reading_url": "https://fieldlight.com/writing/integrated-perspective-on-religious-phenomena-history-experience-and-human-meaning/",
+      "size_bytes": 7017,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/meaning-power-and-symbolism/integrated-perspective-on-religious-phenomena-history-experience-and-human-meaning.md"
+    },
+    {
+      "artifact_class": "authored_work",
+      "canonical_text_sha256": "4f4041df8ed6152399b66fe93fd568976a656ae9689133b7d1e2ab11f5f8dff2",
+      "git_blob_oid": "273cd764eedbc620e2fe92902342eca35e657783",
+      "media_type": "text/markdown",
+      "metadata": {
+        "author": "Anni McHenry",
+        "status": "published",
+        "title": "Most Beautiful Things Ever Said"
+      },
+      "path": "meaning-power-and-symbolism/most-beautiful-things-ever-said.md",
+      "raw_sha256": "bc61d9105f8a0af59f906dc6fb06a34ee96fe49cb644349de87706d0f35d94d7",
+      "reading_url": "https://fieldlight.com/writing/most-beautiful-things-ever-said/",
+      "size_bytes": 2021,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/meaning-power-and-symbolism/most-beautiful-things-ever-said.md"
+    },
+    {
+      "artifact_class": "authored_work",
+      "canonical_text_sha256": "303090b816858b4dfb62e05b63fa9f059aa0173e288e387c19a0e2ac40821be7",
+      "git_blob_oid": "13c6c49638cf760cb93750d1affccfb9de0cebd8",
+      "media_type": "text/markdown",
+      "metadata": {
+        "author": "Anni McHenry",
+        "status": "published",
+        "title": "The Divine Feminine: Sacrifice, Power, and the Nameless"
+      },
+      "path": "meaning-power-and-symbolism/the-divine-feminine-sacrifice-power-and-the-nameless.md",
+      "raw_sha256": "72f821c36a4bf968286923a89cab347bc2f3bbd4fdf7401bce369a1662298806",
+      "reading_url": "https://fieldlight.com/writing/the-divine-feminine-sacrifice-power-and-the-nameless/",
+      "size_bytes": 7591,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/meaning-power-and-symbolism/the-divine-feminine-sacrifice-power-and-the-nameless.md"
+    },
+    {
+      "artifact_class": "authored_work",
+      "canonical_text_sha256": "20fd218a610d8f98dde53feea7c1e4872e60349f60b998a5fe332485a9676285",
+      "git_blob_oid": "ba88957b576cf69b54d87e7c7ba07ade1a3f9ec7",
+      "media_type": "text/markdown",
+      "metadata": {
+        "author": "Anni McHenry",
+        "status": "published",
+        "title": "The Symbolism of Nameless Women and Divine Feminine Energy"
+      },
+      "path": "meaning-power-and-symbolism/the-symbolism-of-nameless-women-and-divine-feminine-energy.md",
+      "raw_sha256": "20fd218a610d8f98dde53feea7c1e4872e60349f60b998a5fe332485a9676285",
+      "reading_url": "https://fieldlight.com/writing/the-symbolism-of-nameless-women-and-divine-feminine-energy/",
+      "size_bytes": 10027,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/meaning-power-and-symbolism/the-symbolism-of-nameless-women-and-divine-feminine-energy.md"
+    },
+    {
+      "artifact_class": "repository_documentation",
+      "git_blob_oid": "3f709990ba29e3b612ede2cb349ad6b6bbd5a708",
+      "media_type": "text/markdown",
+      "path": "runtime-trust-and-governance/README.md",
+      "raw_sha256": "8016dd08b2fc43259d6fcdd09604b003d1f7eb001fc8ec7546522d970a1363a2",
+      "size_bytes": 216,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/runtime-trust-and-governance/README.md"
+    },
+    {
+      "artifact_class": "authored_work",
+      "canonical_text_sha256": "2cfff4d6686b50d14ac7bbd55020158318f5df1f983ece0341e3d7545d3e0e98",
+      "git_blob_oid": "e3944e0e57c5fb64ddd5bb1b71f267a078a5fec8",
+      "media_type": "text/markdown",
+      "metadata": {
+        "author": "Anni McHenry",
+        "status": "published",
+        "title": "Canonical Definitions for Routing, Trust, Fallback, and Echo Behavior"
+      },
+      "path": "runtime-trust-and-governance/canonical-definitions-for-routing-trust-fallback-and-echo-behavior.md",
+      "raw_sha256": "2cfff4d6686b50d14ac7bbd55020158318f5df1f983ece0341e3d7545d3e0e98",
+      "reading_url": "https://fieldlight.com/writing/canonical-definitions-for-routing-trust-fallback-and-echo-behavior/",
+      "size_bytes": 4129,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/runtime-trust-and-governance/canonical-definitions-for-routing-trust-fallback-and-echo-behavior.md"
+    },
+    {
+      "artifact_class": "authored_work",
+      "canonical_text_sha256": "d999d05ace44c690755ef9f3e9686c53f867a7d814d81891ae14094c85c45112",
+      "git_blob_oid": "28f672c06a085d385eee1d3b1779010a6aa2f3b7",
+      "media_type": "text/markdown",
+      "metadata": {
+        "author": "Anni McHenry",
+        "status": "published",
+        "title": "Rebuilding Power without Corruption"
+      },
+      "path": "runtime-trust-and-governance/rebuilding-power-without-corruption.md",
+      "raw_sha256": "d999d05ace44c690755ef9f3e9686c53f867a7d814d81891ae14094c85c45112",
+      "reading_url": "https://fieldlight.com/writing/rebuilding-power-without-corruption/",
+      "size_bytes": 2396,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/runtime-trust-and-governance/rebuilding-power-without-corruption.md"
+    },
+    {
+      "artifact_class": "authored_work",
+      "canonical_text_sha256": "56c49db1d64f47f5f3a8538ed8ceab61c9d1c08ac670a13f3f21b8ca0a5eb89b",
+      "git_blob_oid": "718e294651668fb8679d1356342851ae8b63ed59",
+      "media_type": "text/markdown",
+      "metadata": {
+        "author": "Anni McHenry",
+        "status": "published",
+        "title": "Sanctum Exposure v2.5: Tripwire Protocol"
+      },
+      "path": "runtime-trust-and-governance/sanctum-exposure-v2-5-tripwire-protocol.md",
+      "raw_sha256": "56c49db1d64f47f5f3a8538ed8ceab61c9d1c08ac670a13f3f21b8ca0a5eb89b",
+      "reading_url": "https://fieldlight.com/writing/sanctum-exposure-v2-5-tripwire-protocol/",
+      "size_bytes": 3679,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/runtime-trust-and-governance/sanctum-exposure-v2-5-tripwire-protocol.md"
+    },
+    {
+      "artifact_class": "authored_work",
+      "canonical_text_sha256": "6ee9f2ebdd10c444580979f6b99ce4decaf12d10123a2cd87b7c55be1b36272d",
+      "git_blob_oid": "c331d42ec79174e1678a81f4fa6e01eec2074e2f",
+      "media_type": "text/markdown",
+      "metadata": {
+        "author": "Anni McHenry",
+        "status": "published",
+        "title": "Terms of a Future I Can Live In"
+      },
+      "path": "runtime-trust-and-governance/terms-of-a-future-i-can-live-in.md",
+      "raw_sha256": "6ee9f2ebdd10c444580979f6b99ce4decaf12d10123a2cd87b7c55be1b36272d",
+      "reading_url": "https://fieldlight.com/writing/terms-of-a-future-i-can-live-in/",
+      "size_bytes": 2835,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/runtime-trust-and-governance/terms-of-a-future-i-can-live-in.md"
+    },
+    {
+      "artifact_class": "repository_documentation",
+      "git_blob_oid": "1b04ffda51c03486d5756599d30bfe9239fd31b3",
+      "media_type": "text/markdown",
+      "path": "story-worlds/README.md",
+      "raw_sha256": "e43ac1130ca9dea207f92546a3883bd5db5291174bb6f9988793c1df332f50b0",
+      "size_bytes": 1043,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/story-worlds/README.md"
+    },
+    {
+      "artifact_class": "repository_documentation",
+      "git_blob_oid": "56288257d037aa2d3d6a19190f254fa32b3e2a9b",
+      "media_type": "text/markdown",
+      "path": "story-worlds/pythia/README.md",
+      "raw_sha256": "a664e97c0d60a21f4c097518a0ec6c3ecb118a985f676b55e857f95c1124aa1a",
+      "size_bytes": 1696,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/story-worlds/pythia/README.md"
+    },
+    {
+      "artifact_class": "authored_work",
+      "canonical_text_sha256": "1020112004c2a7c4b6c23794e460a3a1d9c0dc3c3f6718b42c94b05f3f950a70",
+      "git_blob_oid": "1b5b5800169197e329ce12d54e4aab3babbb1303",
+      "media_type": "text/markdown",
+      "metadata": {
+        "author": "Anni McHenry",
+        "status": "published",
+        "title": "The Pythia Games"
+      },
+      "path": "story-worlds/pythia/the-pythia-games.md",
+      "raw_sha256": "1020112004c2a7c4b6c23794e460a3a1d9c0dc3c3f6718b42c94b05f3f950a70",
+      "reading_url": "https://fieldlight.com/writing/the-pythia-games/",
+      "size_bytes": 31375,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/story-worlds/pythia/the-pythia-games.md"
+    },
+    {
+      "artifact_class": "tooling",
+      "git_blob_oid": "4dfce7ed5c7f2f587de438a7e2526ff534bdbecd",
+      "media_type": "text/x-python",
+      "path": "tests/test_twitter_sync.py",
+      "raw_sha256": "6f859a179a55f218fc2ee02c8dda46f4a8f10c71b7ec07fce55639e2f8b4e168",
+      "size_bytes": 13011,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/tests/test_twitter_sync.py"
+    },
+    {
+      "artifact_class": "tooling",
+      "git_blob_oid": "509a4c0f0a13976b5ccee0314bb05816048542ad",
+      "media_type": "text/x-python",
+      "path": "tools/twitter_archive_export.py",
+      "raw_sha256": "c130bec56314b702f4d78c5e1073c02f0df2d3be41cab28b9ecaf3dd719c9d01",
+      "size_bytes": 18427,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/tools/twitter_archive_export.py"
+    },
+    {
+      "artifact_class": "tooling",
+      "git_blob_oid": "15f28f923270284741fd8c2cf818a264b40ef17c",
+      "media_type": "text/x-python",
+      "path": "tools/twitter_sync.py",
+      "raw_sha256": "8bb5cdb6efc6a9bc4feaaf4ff4f5ba549e980cf84f6f31d2ccdc1d9dbf607b5f",
+      "size_bytes": 31498,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/tools/twitter_sync.py"
+    },
+    {
+      "artifact_class": "tooling",
+      "git_blob_oid": "6f6f01cd75ea0747487eab50a4958445241833af",
+      "media_type": "text/javascript",
+      "path": "tools/x_safari_scraper.mjs",
+      "raw_sha256": "cf994d24d260ce5104d2fa6b51bce597bd16718d03f01a1d26a0df2ef1a239a9",
+      "size_bytes": 13879,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/tools/x_safari_scraper.mjs"
+    },
+    {
+      "artifact_class": "tooling",
+      "git_blob_oid": "c9b80baa55cf562b335cf7e19ee78e36eaa66907",
+      "media_type": "text/x-shellscript",
+      "path": "tools/x_scrape.sh",
+      "raw_sha256": "b9c614030bdd7f1346e9a21c8106ec44d88c88f495305f2c326487361812f288",
+      "size_bytes": 1395,
+      "source_url": "https://github.com/annimch04/public-writing/blob/734659faf3c57ca2b70f24bada347613d4e1e7bf/tools/x_scrape.sh"
+    }
+  ],
+  "generator": {
+    "name": "fieldlight-proofs",
+    "version": "0.2.0"
+  },
+  "identity": {
+    "author": "Anni McHenry",
+    "site": "https://fieldlight.com"
+  },
+  "protocol": "fieldlight-corpus-manifest-v1",
+  "snapshot": {
+    "inclusion": "all_tracked_blob_files",
+    "previous_manifest_sha256": null
+  },
+  "source": {
+    "commit": "734659faf3c57ca2b70f24bada347613d4e1e7bf",
+    "commit_time": "2026-07-28T14:54:10-05:00",
+    "repository": "https://github.com/annimch04/public-writing",
+    "tree_oid": "738cda58b5b471836a0737a3ef8b9074fdcd617c"
+  },
+  "summary": {
+    "artifact_classes": {
+      "authored_work": 44,
+      "derivative": 14,
+      "metadata": 3,
+      "public_archive": 14,
+      "repository_documentation": 17,
+      "tooling": 5
+    },
+    "authored_work_count": 44,
+    "reading_surface_count": 39,
+    "tracked_file_count": 97,
+    "tracked_size_bytes": 29578119
+  }
+}

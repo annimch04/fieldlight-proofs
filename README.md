@@ -13,6 +13,8 @@ manifest_sha256 -> Bitcoin OP_RETURN payload
 
 The tool does not hold keys, sign transactions, or broadcast Bitcoin payments. It produces deterministic proof records and the compact `OP_RETURN` text you can anchor with the wallet or node software you already trust.
 
+It also produces immutable corpus snapshots: exact-byte SHA-256 records for every tracked file in a pinned Git commit. Corpus snapshots keep later signatures and blockchain receipts separate so the manifest being proved never changes.
+
 ## Why This Exists
 
 Fieldlight has writing, reading surfaces, images, recordings, protocols, and repositories that should be able to carry a public record without turning creative work into paperwork hell.
@@ -26,6 +28,7 @@ For the broader migration and recording process, start here:
 - [Public Artifact Process](docs/public-artifact-process.md)
 - [Reorientation Note](docs/reorientation-note.md)
 - [Artifact Entry Example](examples/artifact-entry-example.json)
+- [Corpus Manifest Specification](CORPUS_SPEC.md)
 
 ## Install for local use
 
@@ -64,6 +67,27 @@ python3 -m fieldlight_proofs verify proofs/manifest-example.json
 
 If the manifest references local source paths, verification recomputes the article hashes too. If it does not, verification still checks every proof hash and the manifest hash.
 
+## Snapshot a Repository Corpus
+
+Create a deterministic inventory of every tracked file at a specific commit:
+
+```bash
+python3 -m fieldlight_proofs snapshot ../public-writing \
+  --ref 734659faf3c57ca2b70f24bada347613d4e1e7bf \
+  --config config/public-writing.json \
+  --output proofs/public-writing/2026-07-30-734659f
+```
+
+Verify the manifest, checksum, pinned Git tree, and every source byte:
+
+```bash
+python3 -m fieldlight_proofs verify-corpus \
+  proofs/public-writing/2026-07-30-734659f/manifest.json \
+  --source-root ../public-writing
+```
+
+The corpus manifest uses raw SHA-256 for every file and adds a normalized text hash for authored Markdown. It includes no timestamp or Bitcoin receipt; those are detached records created only after the immutable manifest has been reviewed.
+
 ## Print the Bitcoin Payload
 
 ```bash
@@ -80,7 +104,7 @@ That compact string is what you anchor in an `OP_RETURN` output.
 
 ## Protocol
 
-The exact hashing, canonicalization, manifest format, and verification rules are described in [SPEC.md](SPEC.md).
+The article proof-of-work format is described in [SPEC.md](SPEC.md). The repository snapshot format is described in [CORPUS_SPEC.md](CORPUS_SPEC.md).
 
 ## Public Workflow
 
