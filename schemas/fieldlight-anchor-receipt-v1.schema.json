@@ -1,0 +1,119 @@
+{
+  "$id": "https://fieldlight.com/schemas/fieldlight-anchor-receipt-v1.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "bitcoin_attestation": {
+      "oneOf": [
+        {
+          "additionalProperties": false,
+          "properties": {
+            "block_hash": {
+              "pattern": "^[0-9a-f]{64}$",
+              "type": "string"
+            },
+            "block_height": {
+              "minimum": 0,
+              "type": "integer"
+            },
+            "block_time": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "block_hash",
+            "block_height",
+            "block_time"
+          ],
+          "type": "object"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "client": {
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "const": "opentimestamps-client"
+        },
+        "version": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "name",
+        "version"
+      ],
+      "type": "object"
+    },
+    "manifest_path": {
+      "const": "manifest.json"
+    },
+    "manifest_sha256": {
+      "pattern": "^[0-9a-f]{64}$",
+      "type": "string"
+    },
+    "method": {
+      "const": "opentimestamps"
+    },
+    "proof": {
+      "additionalProperties": false,
+      "properties": {
+        "calendar_attestations": {
+          "items": {
+            "format": "uri",
+            "type": "string"
+          },
+          "minItems": 1,
+          "type": "array",
+          "uniqueItems": true
+        },
+        "path": {
+          "const": "manifest.json.ots"
+        },
+        "sha256": {
+          "pattern": "^[0-9a-f]{64}$",
+          "type": "string"
+        },
+        "size_bytes": {
+          "minimum": 1,
+          "type": "integer"
+        },
+        "status": {
+          "enum": [
+            "pending_bitcoin_confirmation",
+            "bitcoin_attested"
+          ]
+        }
+      },
+      "required": [
+        "calendar_attestations",
+        "path",
+        "sha256",
+        "size_bytes",
+        "status"
+      ],
+      "type": "object"
+    },
+    "protocol": {
+      "const": "fieldlight-anchor-receipt-v1"
+    },
+    "submitted_at": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "bitcoin_attestation",
+    "client",
+    "manifest_path",
+    "manifest_sha256",
+    "method",
+    "proof",
+    "protocol",
+    "submitted_at"
+  ],
+  "title": "Fieldlight Anchor Receipt v1",
+  "type": "object"
+}

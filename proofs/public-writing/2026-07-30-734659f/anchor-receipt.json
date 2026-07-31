@@ -1,0 +1,23 @@
+{
+  "bitcoin_attestation": null,
+  "client": {
+    "name": "opentimestamps-client",
+    "version": "0.7.2"
+  },
+  "manifest_path": "manifest.json",
+  "manifest_sha256": "6f5a9ad9f76e4633ef2a9d3a50556b91f3abe92d8425afa3fa5b6bebb7f1be90",
+  "method": "opentimestamps",
+  "proof": {
+    "calendar_attestations": [
+      "https://finney.calendar.eternitywall.com",
+      "https://bob.btc.calendar.opentimestamps.org",
+      "https://btc.calendar.catallaxy.com"
+    ],
+    "path": "manifest.json.ots",
+    "sha256": "a27f084a0bb4d9111d69853bc77ff7e64205c0111f1076a47c082bd0aee1ba2c",
+    "size_bytes": 597,
+    "status": "pending_bitcoin_confirmation"
+  },
+  "protocol": "fieldlight-anchor-receipt-v1",
+  "submitted_at": "2026-07-31T00:17:32Z"
+}

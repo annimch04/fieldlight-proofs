@@ -134,11 +134,24 @@ A detached receipt references the immutable manifest digest:
 
 ```json
 {
-  "protocol": "fieldlight-anchor-receipt-v1",
+  "bitcoin_attestation": null,
+  "client": {
+    "name": "opentimestamps-client",
+    "version": "0.7.2"
+  },
+  "manifest_path": "manifest.json",
   "manifest_sha256": "...",
   "method": "opentimestamps",
-  "proof_path": "manifest.ots"
+  "proof": {
+    "calendar_attestations": ["https://example-calendar.invalid"],
+    "path": "manifest.json.ots",
+    "sha256": "...",
+    "size_bytes": 0,
+    "status": "pending_bitcoin_confirmation"
+  },
+  "protocol": "fieldlight-anchor-receipt-v1",
+  "submitted_at": "2026-07-31T00:17:32Z"
 }
 ```
 
-A future direct Bitcoin receipt may instead record the OP_RETURN payload, transaction ID, block height, and block hash. Updating or supplementing a detached receipt never changes the anchored manifest digest.
+After the calendar commitment reaches Bitcoin, the OpenTimestamps proof can be upgraded in place and the detached receipt updated with the new proof hash, proof size, completion status, block height, block hash, and block time. Updating or supplementing a detached receipt never changes the anchored manifest digest.
